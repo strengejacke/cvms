@@ -3518,8 +3518,12 @@ test_that("varying number of folds in repeated cv with cross_validate()", {
         0.00196103615278914, 1.18033672582856e-09, 0.0098923901197315,
         1.26960822180091e-08, 0.038244411370448)), row.names = c(NA,
     -18L), sigma = 14.5813635033272, residual_df = 12, pretty_names = c(`(Intercept)` = "(Intercept)",
-    diagnosis = "diagnosis"), ci = 0.95, verbose = TRUE, exponentiate = FALSE, ordinal_model = FALSE, linear_model = TRUE, mixed_model = FALSE, n_obs = 14L, model_class = "lm", bootstrap = FALSE, iterations = 1000, ignore_group = TRUE, ran_pars = TRUE, show_summary = FALSE, title = "", weighted_nobs = 14, model_formula = "score ~ diagnosis", coefficient_name = "Coefficient", zi_coefficient_name = "Log-Odds", digits = 2, ci_digits = 2, p_digits = 3, footer_digits = 3, object_name = "model", class = c("tbl_df",
-    "tbl", "data.frame")))
+    diagnosis = "diagnosis"), ci = 0.95, verbose = TRUE, exponentiate = FALSE, ordinal_model = FALSE,
+    linear_model = TRUE, mixed_model = FALSE, n_obs = 14L, model_class = "lm", bootstrap = FALSE,
+    iterations = 1000, ignore_group = TRUE, ran_pars = TRUE, show_summary = FALSE, title = "",
+    weighted_nobs = 14, model_formula = "score ~ diagnosis", coefficient_name = "Coefficient",
+    zi_coefficient_name = "Log-Odds", digits = 2, ci_digits = 2, p_digits = 3, footer_digits = 3,
+    object_name = "model", class = c("tbl_df", "tbl", "data.frame")))
     )
   # Testing names
   expect_equal(
